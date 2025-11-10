@@ -5,7 +5,7 @@ import { UserAuth } from "../context/AuthContext";
 const Signup = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { user, signUp } = UserAuth();
+  const { signUp } = UserAuth();
   const navigate = useNavigate();
   const [error, setError] = useState("");
 
@@ -83,3 +83,4 @@ const Signup = () => {
 };
 
 export default Signup;
+
