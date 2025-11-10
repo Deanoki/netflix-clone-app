@@ -21,7 +21,7 @@ const Movie = ({ item }) => {
           title: item.title,
           img: item.backdrop_path,
         }),
-      });
+      }, {merge : true});
     } else {
       alert("Please Login to save the movie");
     }
@@ -39,4 +39,5 @@ const Movie = ({ item }) => {
 };
 
 export default Movie;
+
 
