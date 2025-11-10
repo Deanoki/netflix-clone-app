@@ -4,7 +4,6 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 
 const Rows = ({ title, fetchURL }) => {
   const [movies, setMovies] = useState([]);
-  //const [like, setLike] = useState(false);
   const [like] = useState(false);
 
   useEffect(() => {
@@ -35,4 +34,5 @@ const Rows = ({ title, fetchURL }) => {
 };
 
 export default Rows;
+
 
